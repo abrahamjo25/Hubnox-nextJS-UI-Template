@@ -50,7 +50,7 @@ const Events = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mx-20 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mx-20 gap-2 mt-3">
         {events?.map((item, index) => (
           <div
             key={index}
