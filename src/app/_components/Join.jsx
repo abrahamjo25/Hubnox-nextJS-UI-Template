@@ -5,7 +5,7 @@ import React from "react";
 const Join = () => {
   return (
     <div className="bg-gray-800">
-      <div className="mx-20 py-20 grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-16">
+      <div className="mx:10 md:mx-20 py-20 grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-16">
         <Image
           src="/images/joinus.png"
           alt="Join"
@@ -22,7 +22,9 @@ const Join = () => {
             By becoming a member, you become a part of an exclusive community of
             creators and will have an access to events of life changing power.
           </p>
-          <Button className="inline-block p-2 text-base text-white rounded-md whitespace-nowrap max-w-screen-sm">Get the app</Button>
+          <div>
+            <Button>Get the app</Button>
+          </div>
         </div>
       </div>
     </div>

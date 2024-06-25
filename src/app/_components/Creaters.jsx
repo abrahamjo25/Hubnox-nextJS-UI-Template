@@ -27,7 +27,7 @@ const Creaters = () => {
   ];
   return (
     <div className="bg-gray-900 py-32">
-      <div className="flex flex-col gap-4 mx-20">
+      <div className="flex flex-col gap-4 md:mx-20">
         <h2 className="text-4xl text-white font-bold">
           Creators that create events with us
         </h2>

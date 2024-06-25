@@ -5,6 +5,7 @@ import Events from "../_components/Events";
 import Hub from "../_components/Hub";
 import Creaters from "../_components/Creaters";
 import Join from "../_components/Join";
+import CreateEvent from "../_components/CreateEvent";
 
 const HomeLayout = ({ children }) => {
   return (
@@ -15,6 +16,7 @@ const HomeLayout = ({ children }) => {
       <Hub />
       <Creaters />
       <Join />
+      <CreateEvent/>
       {children}
     </div>
   );
