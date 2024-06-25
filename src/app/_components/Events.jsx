@@ -35,7 +35,7 @@ const Events = () => {
   ];
   return (
     <div className="bg-gray-900">
-      <div className="flex flex-col justify-center mx-20">
+      <div className="flex flex-col justify-center  md:mx-24">
         <h2 className="text-xl md:text-4xl py-4 mt-10 text-slate-200 md:font-bold">
           Upcoming events
         </h2>
@@ -50,11 +50,11 @@ const Events = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mx-20 gap-2 mt-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4  gap-2 mt-3 mx-0 md:mx-20">
         {events?.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col gap-4 items-center justify-start text-left"
+            className="flex flex-col gap-4 items-center justify-start text-left py-3"
           >
             <Image
               src={item.img}
@@ -63,12 +63,12 @@ const Events = () => {
               alt="event"
               className="rounded-lg"
             />
-            <div className="text-left mt-4">
+            <div className="text-left mt-4 px-3">
               <span className="block text-blue-300 font-bold">{item.date}</span>
               <h2 className="text-lg font-bold text-white mt-3">{item.title}</h2>
               <p className="text-sm text-slate-400 mt-3">{item.text}</p>
               <div className="flex justify-between ">
-                <div className="flex gap-2 items-center mt-3">
+                <div className="flex gap-2 items-center ">
                   <Image
                     className="rounded-full mt-3"
                     src="/images/profile.png"

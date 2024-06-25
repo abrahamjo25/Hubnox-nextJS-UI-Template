@@ -11,9 +11,9 @@ const WhoWeAre = () => {
   ];
   return (
     <div className="bg-gray-900">
-      <div className="px-10 md:px-20">
+      <div className="md:mx-20">
         <div className="flex flex-col gap-4 ">
-          <div className="grid grid-cols-1 md:grid-cols-2 justify-between">
+          <div className="grid grid-cols-1 md:grid-cols-2 justify-between mx-2">
             <div>
               <h2 className="text-white text-3xl font-bold">Who we are?</h2>
               <p className="text-slate-400 max-w-screen-sm">
@@ -39,7 +39,7 @@ const WhoWeAre = () => {
                   alt="We"
                   className="rounded-lg"
                 />
-                <div className="text-left mt-4">
+                <div className="text-left mt-4 mb-4 mx-2">
                   <h2 className="text-lg font-bold text-white mt-3">
                     {item.name}
                   </h2>

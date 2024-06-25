@@ -1,6 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import { FiArrowRight,FiArrowRightCircle,FiArrowLeftCircle } from "react-icons/fi";
+import {
+  FiArrowRight,
+  FiArrowRightCircle,
+  FiArrowLeftCircle,
+} from "react-icons/fi";
 
 const Creaters = () => {
   let creators = [
@@ -27,7 +31,7 @@ const Creaters = () => {
   ];
   return (
     <div className="bg-gray-900 py-32">
-      <div className="flex flex-col gap-4 md:mx-20">
+      <div className="flex flex-col gap-4 mx-4 md:mx-20">
         <h2 className="text-4xl text-white font-bold">
           Creators that create events with us
         </h2>
@@ -42,7 +46,7 @@ const Creaters = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mx-20 gap-2 mt-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4  gap-8 md:gap-2 mt-3 px-0 md:px-12">
         {creators?.map((item, index) => (
           <div
             key={index}
@@ -55,11 +59,11 @@ const Creaters = () => {
               alt="event"
               className="rounded-lg"
             />
-            <div className="text-left mt-4">
+            <div className="text-left mt-4 px-4">
               <h2 className="text-lg font-bold text-white mt-3">{item.name}</h2>
               <p className="text-sm text-slate-400 mt-3">{item.text}</p>
               <div className="flex justify-between ">
-                <div className="flex gap-2 items-center mt-3">
+                <div className="flex gap-2 items-center ">
                   <span className="text-pink-400">See creator events</span>
                   <FiArrowRight className="text-pink-400" />
                 </div>

@@ -7,6 +7,7 @@ import Creaters from "../_components/Creaters";
 import Join from "../_components/Join";
 import CreateEvent from "../_components/CreateEvent";
 import WhoWeAre from "../_components/WhoWeAre";
+import Footer from "../_components/Footer";
 
 const HomeLayout = ({ children }) => {
   return (
@@ -17,8 +18,9 @@ const HomeLayout = ({ children }) => {
       <Hub />
       <Creaters />
       <Join />
-      <CreateEvent/>
-      <WhoWeAre/>
+      <CreateEvent />
+      <WhoWeAre />
+      <Footer />
       {children}
     </div>
   );

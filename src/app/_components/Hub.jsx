@@ -4,7 +4,7 @@ import React from "react";
 const Hub = () => {
   return (
     <div className="bg-gray-900">
-      <div className="flex flex-col  gap-4 mx-20 py-32">
+      <div className="flex flex-col  gap-4 mx-2 md:mx-20 py-2 md:py-6">
         <h2 className="text-xl md:text-4xl text-white md:font-bold">
           We are the hub for high-quality
           <span className="text-blue-500">verified</span> events
