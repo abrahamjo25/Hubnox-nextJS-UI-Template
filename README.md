@@ -13,12 +13,15 @@ This is a simple website template built with NextJS and Tailwind CSS. It feature
 
 1. Clone this repository: git clone https://github.com/abrahamjo25/Hubnox-nextJS-UI-Template.git
 
+
 2. Install dependencies:
-npm install
+
+```npm install```
 
 
 3. Run the development server:
-npm run dev
+```npm run dev```
+
 
 
 4. Open your browser and go to `http://localhost:3000` to see the website.
