@@ -2,7 +2,7 @@
 
 This is a simple website template built with NextJS and Tailwind CSS. It features a fully responsive design, modern and clean layout, easy customization, and is built with the latest technologies.
 <br/>
-![Website Template Preview](/images/preview.jpg)
+![Website Template Preview](/public/images/preview.jpg)
 
 ## Features
 
