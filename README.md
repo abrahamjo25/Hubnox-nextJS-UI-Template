@@ -1,6 +1,7 @@
 # NextJS and Tailwind CSS Website Template
 
 This is a simple website template built with NextJS and Tailwind CSS. It features a fully responsive design, modern and clean layout, easy customization, and is built with the latest technologies.
+![Website Template Preview](/images/preview.png)
 
 ## Features
 
@@ -28,7 +29,7 @@ This is a simple website template built with NextJS and Tailwind CSS. It feature
 
 ## Customization
 
-- Modify the content in the `pages` directory to change the pages of the website.
+- Modify the content in the `app` directory to change the pages of the website.
 - Update the styles in the `styles` directory to customize the look and feel.
 - Add new components in the `components` directory to extend the functionality.
 
